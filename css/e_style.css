@@ -1,0 +1,224 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppns', sans-serif;
+} */
+
+.colors {
+    background: #00334E;
+}
+
+.color {
+    background: #16384c;
+}
+
+.color-f {
+    color: #16384c;
+}
+
+.color2 {
+    background: #1f4b64;
+}
+
+.color3 {
+    background: #dfe2e4;
+}
+
+.services .container-fluid {
+    /* CHANGE TO GRID */
+    background-color: rgb(221, 217, 217);
+    justify-items: center;
+    /* grid-gap: 20px; */
+    /* width: 940px; */
+    max-width: 100%;
+    margin: auto;
+}
+
+.services .card:hover {
+    margin-top: 10px;
+}
+
+.services .card {
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* width: 300px; */
+    /* height: 370px; */
+}
+
+.services .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    min-height: 250px;
+}
+
+.services .card-body h3 {
+    margin: 10px 0;
+    color: rgb(21, 112, 148);
+}
+
+.services .card-body p {
+    font-size: 20px;
+    margin: 15px 0 40px;
+    text-decoration: solid bold rgb(9, 94, 163);
+    /* color: rgb(6, 81, 110); */
+}
+
+.services .card-body a {
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.cctv .container {
+    /* background-image: linear-gradient(-93deg, #f1cdd1, #d6d0db); */
+    /* background-image: linear-gradient(-90deg, #d1cdd3, #d6d0db); */
+}
+
+.cctv .container a {
+    border-radius: 20px;
+    align-items: center;
+}
+
+.cards .container {
+    position: relative;
+    /* width: 1100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.cards .container .card {
+    display: flex;
+    position: relative;
+    max-width: 320px;
+    height: 200px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 5);
+    transition: 0.3s ease-in-out;
+}
+
+.cards .container .card:hover {
+    height: 600px;
+}
+
+.cards .container .card .imgBox {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    right: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 2);
+}
+
+.cards .container .card .imgBox img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.cards .container .card .content {
+    max-height: 100%;
+    position: relative;
+    margin-top: -40px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.cards .container .card:hover .content {
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    margin-top: -70px;
+    transition-delay: 0.3s;
+}
+
+#map {
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.shrink {
+    transition: all 0.2s ease-in-out;
+}
+
+.shrink:hover {
+    transform: scale(0.8);
+}
+
+
+/* icons */
+
+.f1 {
+    font-size: 1.5rem;
+}
+
+.float {
+     position: fixed;
+    width: 42px;
+    height: 40px;
+    bottom: 35px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 26px;
+    box-shadow: 1px 0px 5px #999;
+    z-index: 1;
+}
+
+.float-whats {
+    background-color: #25d366;
+    right: 37px;
+}
+
+.float-phone {
+    background-color: #232323;
+    right: 80px;
+}
+
+.float-phone:hover {
+    color: #25d366;
+}
+
+/* .float2 {
+    position: fixed;
+    width: 40px;
+    height: 35px;
+    bottom: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 2px 2px 2px #999;
+    z-index: 10;
+} */
+
+.float-facebook {
+    background-color: #999;
+    left: 37px;
+}
+
+.float-youtube {
+    background-color: #999;
+    left: 84px;
+}
+
+.float-youtube:hover {
+    color: red;
+}
+
+
+/* slider custumer */

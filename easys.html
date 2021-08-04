@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<!-- start head -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>إيزي سوفت تكنولوجي</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link href="./css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./e_style.css">
+    <link rel="stylesheet" href="css/simple-lightbox.css">
+    <!-- mapbox -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+
+
+</head>
+<!--end head  -->
+
+<body>
+    <div class="container-fluid ">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light   ">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav navbar-brand me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="easys.html">
+                                <i class="bi bi-house-door text-info"></i> الرئيسية
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#services"> خدماتنا 
+                                <i class="bi bi-info text-info"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products"> منتجاتنا
+                                <i class="bi bi-cart4 text-info"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#customer" tabindex="-1" aria-disabled="true">عملائنا 
+                                <i class="bi bi-people-fill text-info"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#around" tabindex="-1" aria-disabled="true">حول الشركة  </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#con" tabindex="-1" aria-disabled="true">تواصل معنا 
+                                <i class="bi bi-chat-quote text-info"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="text-end me-5">
+                    <!-- My Logo -->
+                    <a href="https://easysoft.sd" class="my-logo ">
+                        <img class="logo-two " src="./images/easy.png" alt="logo" height="70" width="120" />
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+    </div>
+    <!--  start carsoual -->
+
+    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/pexels-soumil-kumar-735911.jpg" class="d-block w-100" alt="..." width="300" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>نقدم أفضل الحلول</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/pexels-xxss-is-back-777001.jpg" class="d-block w-100" alt="..." width="300" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>ومنتجات تكنلوجيا المعلومات مدعومة بالإبتكار والكفاءة </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/pexels-josh-sorenson-1714208.jpg" class="d-block w-100" alt="..." width="300" height="600">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>وتبسيط الإجراءات وتسهيل المهام لتساعد العملاء بتحسين أداء العمل وتطويره بشكل فعال ومميز لتحقيق النجاح</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!--  end carsoual -->
+    <!-- services section -->
+    <section class="services">
+        <!-- الخدمات -->
+        <!-- container -->
+        <div class="container-fluid p-5 " id="services">
+            <h2 class="text-center text-dark mt-0 ">خدماتنا
+                <i class="bi bi-caret-down text-info "></i>
+            </h2>
+            <!-- make row one-->
+            <div class="row g-3 ">
+                <!-- make col one -->
+                <div class="col-md-4 ">
+                    <div class="card h-100 ">
+                        <div class="card-body ">
+                            <h2 class="card-title align-self-center "><i class="bi bi-code-slash text-info text-center "></i></h2>
+                            <h3 class="card-title align-self-center ">تصميم المواقع الإلكترونية</h3>
+                            <p class="card-text mt-2 lead ">سرعة التصفح و أداء أسرع للموقع ربط الموقع بالشبكات الإجتماعية الحماية من الإختراق</p>
+                            <div class="align-self-center mt-3 ">
+                                <a href="#con " class="btn btn-outline-info ">أطلب الأن </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- make col two -->
+                <div class="col-md-4 ">
+                    <div class="card h-100">
+                        <div class="card-body ">
+                            <h2 class="card-title align-self-center "><i class="bi bi-file-code text-info "></i></h2>
+                            <h3 class="card-title align-self-center "> تصميم وتطوير تطبيقات الموبايل</h3>
+                            <p class="card-text mt-2 lead"> سرعة عالية للتطبيق تصميم تفاعلي و متجاوب ربط التطبيق مع الحسابات البريدية والبنكية سيرفرات </p>
+                            <div class="align-self-center mt-3 ">
+                                <a href="#con " class="btn btn-outline-info ">أطلب الأن </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- make col three -->
+                <div class="col-md-4 ">
+                    <div class="card h-100">
+                        <div class="card-body ">
+                            <h2 class="card-title align-self-center "><i class="bi bi-exclude text-info "></i></h2>
+                            <h3 class="card-title align-self-center "> تصميم و تطوير نظم الأعمال</h3>
+                            <p class="card-text mt-2 lead">سهولة الاستخدام التطوير والتحديث المستمر المرونة وسرعة الاداء والتوافق مع كل انظمة </p>
+                            <div class="align-self-center mt-3 ">
+                                <a href="#con " class="btn btn-outline-info ">أطلب الأن </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- make row two-->
+            <div class="row g-3 mt-3">
+                <!-- make col one -->
+                <div class="col-md-4 ">
+                    <div class="card h-100">
+                        <div class="card-body ">
+                            <h2 class="card-title align-self-center "><i class="bi bi-server text-info "></i></h2>
+                            <h3 class="card-title align-self-center "> إستضافة مواقع الانترنت </h3>
+                            <p class="card-text mt-3 lead">إستضافة مواقع الافرد والشركات مساحة تخزينية بريد إلكتروني قواعد بيانات حسابات FTP نسخ إحتياطي إسبوعية</p>
+                            <div class="align-self-center mt-5 ">
+                                <a href="#con " class="btn btn-outline-info ">أطلب الأن </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- make col two -->
+                <div class="col-md-4 ">
+                    <div class="card h-100">
+                        <div class="card-body ">
+                            <h2 class="card-title align-self-center "><i class="bi bi-share text-info "></i></h2>
+                            <h3 class="card-title align-self-center ">التسويق اللإلكتروني</h3>
+
+                            <p class="card-text mt-3 lead">الترويج للسلع والخدمات انتشار سريع للموقع الإلكتروني حملات ترويجية علي الفيس بوك وتويتر وانستجرام وجوجل الإعلان من خلال البريد الإلكتروني والرسائل النصية إمكانية طلب السلع او الخدمات من خلال إرسال الطلبات للموقع
+                            </p>
+                            <div class="align-self-center ">
+                                <a href="#con " class="btn btn-outline-info ">أطلب الأن </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- make col three -->
+                <div class="col-md-4 ">
+                    <div class="card h-100">
+                        <div class="card-body ">
+                            <h1 class="card-title align-self-center "><i class="bi bi-diagram-2-fill text-info "></i></h1>
+                            <h3 class="card-title align-self-center "> تركيب الشبكات والصيانة</h3>
+                            <p class="card-text mt-3 lead "> تصميم و بناء الشبكات المحلية والواسعة اعداد واصلاح اعطال التوصيلات وآليات الاتصال
+                            </p>
+                            <div class="align-self-center mt-5 ">
+                                <a href="#con " class="btn btn-outline-info ">أطلب الأن </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- start section cctv -->
+            <section class="cctv">
+                <div class="container bg-light rounded-3">
+                    <div class="text-center mt-5">
+                        <h1 class="mb-3 mt-3"><i class="bi bi-camera-video text-info"></i></h1>
+
+                        <h3>تركيب انظمة المراقبة وانظمة التحكم بالدخول</h3>
+                        <p class="lead mb-5">
+                            تركيب انظمة المراقبة وربطها بالجوال تركيب انظمة الدخول وربطها بنظام الحضور والانصراف
+                        </p>
+                        <div class="align-self-center mb-5 p-2">
+                            <a href="#con " class="btn btn-outline-info ">أطلب الأن </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- end section cctv -->
+        </div>
+        <!-- card section -->
+    </section>
+    <!-- end services section -->
+    <!-- start card section -->
+    <section class="cards color " id="products">
+        <h2 class="text-center text-light  ">منتجاتنا
+            <i class="bi bi-caret-down text-light "></i>
+        </h2>
+        <div class="container ">
+            <div class="card">
+                <div class="imgBox">
+                    <img src="./images/erp.jpg " alt="">
+                </div>
+                <div class="content ">
+                    <h4 class="card-title align-self-center mt-2 "> نظام إدارة المؤسسات</h4>
+                    <h5 class="card-title align-self-center ">( <span class=" text-info ">Easy-ERP</span> )</h5>
+                    <p class="card-text mt-3 ">
+
+                        اطلع على جميع المعلومات الهامة عن كل إدارة في لمحة سريعة، واجعل الاطلاع على المعلومات الحساسة مقتصراً على مدراء الموارد البشرية فقط، أو اجعل المعلومات الأخرى متاحة لجميع الموظفين للاطلاع عليها وكأنها دليل الموظف، احصل على تنبيهات طلبات الإجازات الجديدة
+                        وطلبات التخصيص وطلبات التوظيف والتقييمات والمزيد
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBox">
+                    <img src="./images/coll.jpg " alt=" " height="175 ">
+                </div>
+                <div class="content ">
+                    <!-- card title -->
+                    <h4 class="card-title align-self-center mt-2 "> نظام إدارة الجامعات والكليات</h5>
+                        <h5 class="card-title align-self-center ">(<span class=" text-info ">Easy-College</span>)</h5>
+                        <!-- card text -->
+                        <p class="card-text ">
+                            احتفظ بجميع معلومات الطالب في مكان واحد لسهولة الوصول إلى المكان وعند الحاجة لاتخاذ قرارات مستنيرة تتتألف الميزات الأساسية لـ نظام إدارة الجامعات والكليات من الوحدات الضرورية لتشغيل أي كلية تعليمي. فليكن من السهل استخدام نظام إدارة معلومات الطلاب وإدارة
+                            الكلية وإدارة الدورات الدراسية وإدارة التسجيل والامتحانات المفيدة إلى جانب الإدارة المالية المتكاملة
+
+                        </p>
+                </div>
+            </div>
+            <div class="card ">
+                <div class="imgBox ">
+                    <img src="./images/school.jpg" alt=" " height="175 ">
+                </div>
+                <div class="content ">
+                    <!-- card title -->
+                    <h4 class="card-title align-self-center mt-2"> نظام إدارة المدارس والمعاهد</h5>
+                        <h5 class="card-title align-self-center ">( <span class=" text-info ">Easy-ERP School</span> )</h5>
+                        <!-- card text -->
+                        <p class="card-text ">عملية تسجيل مدعومة بسير العمل والتي تمكن المعهد/المدرسة من متابعة سير العمليات بكل شفافية ووضوح وهو نظام متكامل لإدارة الطلبة يشمل جميع المعلومات ومنها فصيلة الدم والانجازات والكثير من التفاصيل الاخري.ويقدم إدارة متكاملة وتشمل
+                            أدارة الموارد البشرية وجميع المعلومات الخاصه بالمهارات والدرجات والرواتب الخاصه بكل مدرس.</p>
+
+                </div>
+            </div>
+            <div class="card ">
+                <div class="imgBox ">
+                    <img src="./images/inv.jpg " alt=" " height="175">
+                </div>
+                <div class="content ">
+                    <!-- card title -->
+                    <h4 class="card-title align-self-center "> نظام إدارة المخزون</h5>
+                        <h5 class="card-title align-self-center ">( <span class=" text-info ">Easy-Inventory</span> )</h5>
+                        <!-- card text -->
+                        <p class="card-text mt-3 ">
+
+                            احصل على تقييم دقيق للمخزون وحسن أداء جميع عملياتك الداخلية. من خلال ترحيل كافة الحركات المخزنية من استلام وصرف وتحويل المخزون بين المواقع بدلاً عن إدخالها مره اخري كقيود محاسبية كما يمكن استخدم نقاط حد الطلب وطلبات عروض الأسعار التلقائية لجعل سلسلة التوريد
+                            أكثر كفاءة من ذي قبل. كما يمكنك تتبع جميع حركات المخزون بدايةً من الشراء مرورًا بالوصول إلى المستودع وحتى أوامر البيع. تتبع أرقام الدفعات أو الأرقام المسلسلة في المراحل الأولى أو النهائية من أي مكان في سلسلة التوريد.
+                        </p>
+                </div>
+            </div>
+            <div class="card ">
+                <div class="imgBox ">
+                    <img src="./images/travel.jpg" alt=" " height="175">
+                </div>
+                <div class="content ">
+                    <!-- card title -->
+                    <h4 class="card-title align-self-center mt-2"> نظام وكالات السفر والسياحة</h5>
+                        <h5 class="card-title align-self-center ">( <span class=" text-info ">Easy-Inventory</span> )</h5>
+                        <!-- card text -->
+                        <p class="card-text mt-3 ">
+
+                            نظام متكامل وشامل مبني على أعلى المعايير العالمية لإدارة وكالات السياحة و السفر . يوفر للإدارة العليا كل المعلومات المطلوبة التي تؤدي إلى نجاحها. ويوفر إمكانية إظهار تقرير بالاوزان لكافة فئات التذاكر من تذاكر الطيران والعفش الزائد وغيرها .إمكانية إظهار
+                            تقرير بكشف حساب للصندوق عن المبيعات النقدية.يتيح إدارة ومتابعة أمور العاملين على كافة مستويات توزعهم الإداري والعملي والمالي منخلال إتاحة إدخال أدق التفاصيل الخاصة بأضابير الموظفين وشروط عقودهم و استحقاقاتهم ومتابعة إجازاتهم
+                            وأية حركة تطرأ على مسيرة عملهم الوظيفي ويوجد مصمم تقارير خاص لاستخراج أية معلومات بالشكل التي تريده الإدارة
+                        </p>
+
+                </div>
+            </div>
+            <div class="card ">
+                <div class="imgBox ">
+                    <img src="./images/recr.jpg" alt=" " height="175">
+                </div>
+                <div class="content ">
+                    <!-- card title -->
+                    <h4 class="card-title align-self-center "> نظام الاستخدام الخارجي والتوظيف</h5>
+                        <h5 class="card-title align-self-center ">( <span class=" text-info ">Easy-recrutment</span> )</h5>
+                        <!-- card text -->
+                        <p class="card-text mt-3 ">
+                            يقوم النظام في مساعدتك علي إدارة المشاريع التوظيفية من عقودات عمل خارجية وفلترتها وتحديد المؤهل اللاذم للمشروع في الشهادات والخبرات والعمر وكل ما تحتاجة من خدمات للتوظيف كما يساعدك في عمل تقرير شامل عن عدد المقدمين للمشروع وعدد خبراتهم وشهاداتهم وعدد
+                            المقبولين والذين تم رفضهم ويساعد في تسهيل المعاملات الخاصة بالوكالة
+                        </p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- customer -->
+    <!-- text lightbox -->
+    <!-- Gallery -->
+
+    <section class="section-c  p-5 " id='customer'>
+        <div class="containor  ">
+            <h2 class='text-center text-dark mb-4'>عملائنا
+                <i class="bi bi-caret-down text-info "></i>
+            </h2>
+            <!-- start -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="row g-1">
+                        <div class="col-md-4">
+                            <div class="carousel-item active">
+                                <img src="./images/hunter.jpg" class="d-block w-100" alt="..." height="170">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="carousel-item active">
+                                <img src="./images/master.jpg" class="d-block w-100" alt="..." height="170">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="carousel-item active">
+                                <img src="./images/faz.jpg" class="d-block w-100" alt="..." height="170">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!-- end -->
+
+
+        </div>
+    </section>
+    <!-- around company -->
+    <section class="around-c" id="around">
+        <div class="contaier-fluid">
+            <h2 class="text-center text-dark mt-3 ">حول الشركة
+                <i class="bi bi-caret-down text-info "></i>
+            </h2>
+            <div class="container rounded-2">
+                <!-- row one -->
+                <div class="row color2 ">
+                    <!-- title -->
+                    <h1 class="text-center text-light mt-5 ">إيزي سوفت تكنولوجي</h1>
+                    <p class=" lead text-center text-light mt-2 mb-5">
+                        الجودة العالية، السرعة والإتقان، إلتزام تام بالمواعيد، و إستخدام أفضل التقنيات
+                    </p>
+                </div>
+                <!-- row two -->
+                <div class="row color3 ">
+                    <!-- title -->
+                    <p class="lead text-center mt-5 mb-5">
+                        نقدم أفضل الحلول ومنتجات تكنلوجيا المعلومات مدعومة بالإبتكار والكفاءة وتبسيط الإجراءات وتسهيل المهام لتساعد العملاء بتحسين أداء العمل وتطويره بشكل فعال ومميز لتحقيق النجاح</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- contact & map -->
+    <section id="con">
+        <h2 class="text-center mt-4 text-dark">تواصل معنا
+            <i class="bi bi-chat-quote text-info"></i>
+        </h2>
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-md-6">
+                    <ul class="list-group list-group-flush laed">
+                        <li class="list-group-item">
+                            <span class="fw-bold">العنوان </span><br><i class="text-info bi bi-geo-alt"></i>العمارات ش 35، جوار السجل التجاري
+
+
+                        </li>
+                        <li class="list-group-item">
+                            <span>البريد الاكتروني</span><br>
+                            <i class="bi bi-at text-info"></i> info@easysoft.sd
+                        </li>
+                        <li class="list-group-item">
+                            <span>الهاتف </span><br>
+                            <i class="bi bi-telephone text-info"></i> 0100010012
+                            <i class="bi bi-telephone text-info"></i> 0100010015
+                            <i class="bi bi-telephone text-info"></i> 0183565203
+                        </li>
+                        <li class="list-group-item">
+                            <span>اوقات العمل </span><br>
+                            <i class="bi bi-clock text-info"></i> مفتوح 8 صباحا - 5 مساء من الاحد : الخميس
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div id="map"></div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- footer -->
+    <footer class="p-2 text-white text-center color">
+        <div>
+            <p class="lead">جميع الحقوق محفوظة لشركة إيزي سوفت 2021&copy;</p>
+
+            <div>
+                <a href="https://api.whatsapp.com/send?phone=0100010015 " class="float float-whats text-decoration-none" target="_blank">
+                    <i class="bi bi-whatsapp p-1 shrink f1 text-success"></i aria-hidden="true"></i>
+                </a>
+
+
+                <a href="tel:0100010015 " class="float float-phone" target="_blank">
+                    <i class="bi bi-telephone-fill shrink p-1 f1" aria-hidden="true"></i>
+                </a>
+                <!-- facebook icon -->
+                <a class="float2 float-facebook" target="_blank" href="https://www.facebook.com/Easy-Soft-Technology-103156011080140/?ref=br_rs"><i class="bi bi-facebook shrink f1"></i></a>
+                <!-- youtube icon -->
+                <a class="float2 float-youtube" target="_blank" href="https://www.youtube.com/channel/UCVoiY46m-VXs6pxBaiLZznA"><i class="bi bi-youtube shrink f1"></i></a>
+
+
+            </div>
+
+
+    </footer>
+
+
+</body>
+<script src="./js/bootstrap.bundle.min.js "></script>
+<script src="js/jquery.js "></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+<script>
+    // map
+    mapboxgl.accessToken =
+        "pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw";
+    var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+    });
+</script>
+
+
+</html>
